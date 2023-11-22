@@ -1,0 +1,9 @@
+### will contain all the packages required to install while implementing the project
+pandas
+numpy
+seaborn
+# -e . # so that setup.py file will automatically run
+
+# When you remove the -e . from the requirements.txt file, the package specified in the setup.py file will not be installed
+#  in "editable" mode. Instead, it will be installed as a regular package, and changes to the source code will not automatically 
+# reflect in the installed package.
