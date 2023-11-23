@@ -3,6 +3,8 @@ pandas
 numpy
 seaborn
 scikit-learn
+catboost
+xgboost
 # -e . # so that setup.py file will automatically run
 
 # When you remove the -e . from the requirements.txt file, the package specified in the setup.py file will not be installed
