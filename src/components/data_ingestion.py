@@ -6,6 +6,9 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 
+from src.components.data_transformation import Datatransformation
+from src.components.data_transformation import DataTransformationConfig
+
 
 '''
 The dataclasses module in Python provides a decorator and functions for automatically adding special methods 
@@ -54,6 +57,9 @@ class Dataingestion:
         
 if __name__=="__main__":
     obj = Dataingestion()
-    obj.initiate_data_ingestion()
+    train_data,test_data = obj.initiate_data_ingestion()
+    
+    data_transformation = Datatransformation()
+    data_transformation.initiate_data_transformation(train_data,test_data)
     
 ############### use this command to run the file -> python -m src.components.data_ingestion         
