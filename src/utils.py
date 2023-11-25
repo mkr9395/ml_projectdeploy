@@ -7,7 +7,7 @@ import numpy as np
 
 from src.exception import CustomException
 
-def save_obj(file_path, obj):
+def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)
         
