@@ -128,6 +128,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< HEAD
+||||||| 69c9dce
+app.py
+=======
+/app.py
+>>>>>>> 2ecd05e28946c2dfbfe19615cddf17d133008e4f
 
 # Spyder project settings
 .spyderproject
